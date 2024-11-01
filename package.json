@@ -6,7 +6,11 @@
   "scripts": {
     "dev":"nodemon src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "java scripts",
+    "backend",
+    "chai"
+  ],
   "author": "sanni",
   "license": "ISC",
   "description": "",
