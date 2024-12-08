@@ -4,7 +4,7 @@ class ApiError extends Error {
         status,
         code,
         errors = [],
-        statck = ""
+        stack = ""
     ) {
         super(message)
         this.statusCode = this.statusCode
@@ -13,8 +13,8 @@ class ApiError extends Error {
         this.success = flase;
         this.errors = errors
 
-        if (statck) {
-            this.stack = statck
+        if (stack) {
+            this.stack = stack
 
         }
         else {

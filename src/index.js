@@ -1,10 +1,12 @@
 // require('dotenv').config({path:"./env"})
 // Import the necessary modules
-import PORT from "../"; // Incorrect import; should import the PORT variable from a module if needed
+ // Incorrect import; should import the PORT variable from a module if needed
 import dotenv from "dotenv"; // Import dotenv to load environment variables from a .env file
 import connectDB from "./db/index.js"; // Import the database connection function from the db module
+import {app} from './app.js'; 
 
-// Configure dotenv to load environment variables
+
+
 dotenv.config({
     path: "./env" // Specify the path to the .env file; typically should be ".env"
 });
